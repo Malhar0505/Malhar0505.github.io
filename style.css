@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.flex_container {
+  display: flex;
+  justify-content: space-around;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(22, 255, 0, 1) 32%, rgba(254, 255, 0, 1) 59%, rgba(29, 0, 255, 1) 100%);
+  color: white;
+  align-items: center;
+  height: 500px;
+}
+
+.flex_container img {
+  width: 400px;
+}
+
+.flex-container h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.flex-container span {
+  font-size: 45px;
+}
+
+.flex-container h2 {
+  font-family: monospace
+}
+.navigator {
+  list-style: none;
+  position: fixed;
+  top: 10px;
+  right: 50px;
+}
+.navigator li {
+  float: left;
+}
+.navigator li a {
+  color: #fdfaf6;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-family: "Stint Ultra Condensed";
+  font-size: 30px;
+
+}
+.navigator li a:hover{
+  background-color:#fdfaf6;
+  padding: 5px 10px;
+  color: rgba(48,67,71,1);
+  font-size:32px;
+}
+#about{
+  text-align: center;
+  padding: 50px;
+
+}
+hr {
+  width: 20%;
+}
+#about p {
+  max-width: 600px;
+  margin: 10px auto;
+  text-align: justify;
+
+}
+iframe {
+/* margin-right: 50px; */
+margin: 5px;
+}
+#videos {
+  text-align: center;
+  padding: 20px;
+}
+#Skills {
+  text-align: center;
+  padding: 30px;
+  background: Lightgray;
+}
+.outer {
+  width: 80%;
+  background: white;
+  margin: 0px auto;
+}
+.inner{
+ text-align: right;
+ padding: 5px;
+}
+.html{
+  width: 80%;
+  background: green;
+}
+.css{
+  width: 95%;
+  background: red;
+}
+.js{
+  width: 50%;
+  background: yellow;
+}
+#works {
+  text-align: center;
+  padding: 50px 0;
+}
+.row{
+  padding: 50px;
+}
+.card {
+  box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.2);
+  /* box-shadow: offset-x offset-y blur-radius spread-radius color */
+  transition: 0.5s;
+  width: 20%;
+  display: inline-block;
+  margin: 10px;
+  background-color: #ddeaf0;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  height: 250px;
+  width: 100%;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #009ea3;
+}
+
+a:hover {
+  color: #3c00a3;
+}
+#contact{
+  padding: 10px;
+  text-align :center;
+}
+
+.size{
+  font-size: 40px;
+}
